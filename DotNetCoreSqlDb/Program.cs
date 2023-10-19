@@ -12,6 +12,7 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddControllersWithViews();
 
 // Add App Service logging
+
 builder.Logging.AddAzureWebAppDiagnostics();
 
 var app = builder.Build();
